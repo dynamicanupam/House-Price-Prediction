@@ -1,7 +1,7 @@
 # House Price Prediction Using Advanced Regression
 
 ## Table of Contents
-* [General Info](#general-information)
+* [General Information](#general-information)
 * [Solution Approach](#solution-approach)
 * [Python Libraries Used](#python-libraries-used)
 * [Contributor](#contributor)
@@ -20,33 +20,34 @@ The company wants to know:
 - How well those variables describe the price of a house.
 
 ## Solution Approach
-- 1. Data Understanding, Preparation and EDA
-		- Duplicate Rows Detection
-		- Missing Value Handling
-		- Outlier Treatment
-		- Visualizing & Analyzing Numerical Features
-			- Data Visualization of Numerical Continuous Features
-			- Data Visualization of Numerical Discrete Features
-			- Correlations Heatmap among numerical variables
-			- Dropping Less Significant Features
-		- Visualizing & Analyzing Categorical Features
-			- Data Visualization of Categorical Features
-			- Data Preparation
-				- Label Encoding for Ordered Categorical Features
-				- One-Hot Encoding for Unordered Categorical Features
-		- Features Correlating with Target Variable
- - 2. Model Building, Tuning and Evaluation
-		- Transformation of Target Variable
-		- Train - Test Split
-		- Feature Scaling
-		- Linear Regression
-			- Primary Feature Selection using RFE
-			- Residual Analysis
-			- Model Evaluation
-		- Ridge Regression
-		- Lasso Regression
-		- Model Evaluation Comparison - Linear vs Ridge vs Lasso
-     - Choosing the final model and most significant features
+- **Step 1. Data Understanding, Preparation and EDA**
+	- Duplicate Rows Detection
+	- Missing Value Handling
+	- Outlier Treatment
+	- Visualizing & Analyzing Numerical Features
+		- Data Visualization of Numerical Continuous Features
+		- Data Visualization of Numerical Discrete Features
+		- Correlations Heatmap among numerical variables
+		- Dropping Less Significant Features
+	- Visualizing & Analyzing Categorical Features
+		- Data Visualization of Categorical Features
+		- Data Preparation
+			- Label Encoding for Ordered Categorical Features
+			- One-Hot Encoding for Unordered Categorical Features
+     	- Features Correlating with Target Variable
+        
+- **Step 2. Model Building, Tuning and Evaluation**
+	- Transformation of Target Variable
+	- Train - Test Split
+	- Feature Scaling
+	- Linear Regression
+		- Primary Feature Selection using RFE
+		- Residual Analysis
+		- Model Evaluation
+	- Ridge Regression
+	- Lasso Regression
+	- Model Evaluation Comparison - Linear vs Ridge vs Lasso
+   	- Choosing the final model and most significant features
 
       
 ## Python Libraries Used
