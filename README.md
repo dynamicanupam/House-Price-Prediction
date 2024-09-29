@@ -1,4 +1,6 @@
 # House Price Prediction Using Advanced Regression
+> Build a regularized regression model to understand the most important variables to predict housing prices in a US market
+---
 
 ## Table of Contents
 * [General Information](#general-information)
